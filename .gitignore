@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# neural_baselines — generated artefacts
+neural_baselines/results/*
+!neural_baselines/results/.gitkeep

@@ -1,0 +1,25 @@
+# neural_baselines — CPU-only AI research environment
+# Python 3.10+
+
+# Core numerics
+numpy>=1.24,<2.0
+
+# PyTorch CPU-only build
+# Install manually after activating env:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Visualisation
+matplotlib>=3.8.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Testing
+pytest>=8.0.0
+
+# Interactive notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
