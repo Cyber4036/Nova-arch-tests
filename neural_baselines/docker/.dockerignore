@@ -1,0 +1,33 @@
+# ── Virtual environments ─────────────────────────────────────────────────────
+env/
+.venv/
+venv/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Jupyter artefacts ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Generated results (figures, logs) ────────────────────────────────────────
+results/*
+!results/.gitkeep
+
+# ── Git internals ────────────────────────────────────────────────────────────
+.git/
+.gitignore
+
+# ── Editor / IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Docker build files (no need to copy into the image) ──────────────────────
+docker/
